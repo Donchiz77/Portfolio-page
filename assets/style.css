@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }

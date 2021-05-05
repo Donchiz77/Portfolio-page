@@ -1,3 +1,19 @@
+*{
+  box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+header{
+  display: flex;
+  font-size: xx-large;
+  font-weight: 900;
+}
+H1 {
+  display: inline-block;
+  width: 50%;
+  min-width: 77px;
+  float: left;
+}
 body{
     background-color: bisque;
     text-align: center;
@@ -7,8 +23,31 @@ body{
     align-items: center;
     align-content: center;
 }
+.top-bar a:hover{
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+  padding: 5px;
+  
+}
+.top-bar{
+  position: fixed;
+  top: 0px;
+  right:0px;
+  display: block;
+  color: black;
+  text-align: right;
+  margin: 28px;
+  padding: 14px;
+  flex-direction: column;
+  background-color: blueviolet;
+}
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     header {
-      width: 75%;
+      width:50%;
     }
+}

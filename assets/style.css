@@ -12,7 +12,6 @@ H1 {
   display: inline-block;
   width: 50%;
   min-width: 77px;
-  float: left;
 }
 body{
     background-color: bisque;
@@ -44,6 +43,16 @@ body{
   padding: 14px;
   flex-direction: column;
   background-color: blueviolet;
+}
+
+.picofme{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  align-items: flex-end;
+  align-content: flex-end;
+
 }
 
 @media screen and (min-width: 768px) {
